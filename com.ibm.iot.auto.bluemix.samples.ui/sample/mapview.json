@@ -1,0 +1,6 @@
+{
+  "api_base_url": "https://automotive.internetofthings.ibmcloud.com/driverinsights",
+  "tenant_id": "Tenant ID for IoT Driver Insights",
+  "user_name": "User name for IoT Driver Insights",
+  "password": "Password for IoT Driver Insights"
+}
