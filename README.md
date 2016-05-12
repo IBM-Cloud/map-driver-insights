@@ -58,7 +58,7 @@ The following additional components are required to complete the tutorial:
 
 ## Tutorial Part 2: Displaying the analysis result on a Java client map UI
 
-Before you start part 2 of the tutorial you must have completed [Context Mapping and Driver Behavior tutorial, Part 1: Sending car probe data and issuing analysis requests](https://github.ibm.com/car-data-management) and have successfully loaded driving data to your **Driver Behavior** service.
+Before you start part 2 of the tutorial you must have completed [*Context Mapping and Driver Behavior tutorial, Part 1: Sending car probe data and issuing analysis requests*](https://github.com/IBM-Bluemix/car-data-management) and have successfully loaded driving data to your **Driver Behavior** service.
 
 ### Step 1: Build the MapView application in Eclipse
 The following steps provide a sequential outline of how to build the MapView application in [Eclipse](http://www.eclipse.org/) and how to run it.
