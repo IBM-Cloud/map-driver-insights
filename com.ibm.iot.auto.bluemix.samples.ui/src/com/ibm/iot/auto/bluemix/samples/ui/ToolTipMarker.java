@@ -32,6 +32,7 @@ public class ToolTipMarker extends SimplePointMarker {
 	}
 
 	public void draw(PGraphics pGraphics, float x, float y) {
+		drawAttribution(pGraphics);
 		drawMarker(pGraphics, x, y);
 		if (showToolTip) {
 			drawToolTip(pGraphics, x, y);
@@ -40,6 +41,23 @@ public class ToolTipMarker extends SimplePointMarker {
 	
 	public void setShowToolTip(boolean value) {
 		showToolTip = value;
+	}
+	
+	private void drawAttribution(PGraphics pGraphics) {
+		String name = "(C) OpenStreetMap contributors - www.openstreetmap.org/copyright";
+		float x = 580;
+		float y = 680;
+		float spaceWidth = pGraphics.textWidth(" ");
+		float textHeight = pGraphics.textAscent() + pGraphics.textDescent();
+		float toolTipWidth = pGraphics.textWidth(" " + name + " ");
+		float toolTipHeight = textHeight;
+		pGraphics.pushStyle();
+			pGraphics.noStroke();
+			pGraphics.fill(255, 255, 255, 30);
+			pGraphics.rect(x, y, toolTipWidth, toolTipHeight);
+			pGraphics.fill(0, 0, 0);
+			pGraphics.text(name, x + spaceWidth, y + pGraphics.textAscent());
+		pGraphics.popStyle();		
 	}
 	
 	private void drawMarker(PGraphics pGraphics, float x, float y) {
