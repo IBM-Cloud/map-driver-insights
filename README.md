@@ -181,3 +181,7 @@ https://automotive.internetofthings.ibmcloud.com/driverinsights/drbresult/trip?t
 ## API Documentation
 * [IBM Watson IoT Driver Behavior](http://ibm.biz/IoTDriverBehavior_APIdoc)
 * [IBM Watson IoT Context Mapping](http://ibm.biz/IoTContextMapping_APIdoc)
+
+## Copyright
+* [&copy; OpenStreetMap contributors](http://www.openstreetmap.org/copyright){:new_window}
+* [Open Data Commons Open Database License (ODbL)](http://opendatacommons.org/licenses/odbl/){:new_window}
